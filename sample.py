@@ -1,7 +1,7 @@
 import canhazsnake
 
-c = canhazsnake.Client("473cdb8554878829ce497183dd7e0a0a",
-        "4e6881a0897ad0e7148a9d1817563576")
+c = canhazsnake.Client("API_KEY",
+        "API_SECRET")
 print "Go here:"
 print c.get_auth_url()
 code = raw_input("Enter your access code: ")
